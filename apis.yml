@@ -1,7 +1,29 @@
 aid: webcomicsapp
-name: webcomicsapp
-description: webcomicsapp is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/webcomicsapp.png
+name: WebComics
+description: >-
+  WebComics (webcomicsapp.com) is a digital comics reading platform for Asian
+  serialized comics, offering a large free library of manhua, manhwa, and manga
+  across genres such as fantasy, romance, action, drama, horror, and slice-of-life.
+  Readers browse trending titles, daily picks, new arrivals, and recent updates on
+  the web and through native iOS and Android apps, while creators publish work
+  through a separate Contribution Studio. The company was surfaced as a portfolio
+  company of the venture firm Qiming and added to the API Evangelist network for
+  enrichment. As of this pass WebComics exposes no public developer API, OpenAPI
+  specification, SDK, or webhook surface; it operates as a consumer content
+  application, so this profile captures its public identity and domain-security
+  posture rather than an API integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/webcomicsapp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Comics
+- Manga
+- Manhwa
+- Manhua
+- Entertainment
+- Reading
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://webcomicsapp.com
+- type: TermsOfService
+  url: https://webcomicsapp.com/en/server/service
+- type: PrivacyPolicy
+  url: https://webcomicsapp.com/en/server/privacy
+- type: Support
+  url: https://webcomicsapp.com/en/contact
+- type: DomainSecurity
+  url: security/webcomicsapp-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
